@@ -1,0 +1,100 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("doodle.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  padding: 20px;
+}
+
+.portrait {
+  width: 100%;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 900px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #fe5f55;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+p,
+li,
+label,
+input,
+textarea {
+  font-size: 1.1rem;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #b68cb8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #357abd;
+}
