@@ -98,3 +98,73 @@ button {
 button:hover {
   background-color: #357abd;
 }
+
+.nav-buttons {
+  margin: 0 0 0 0;
+  display: flex;
+  width: 100%;
+}
+
+.nav-button {
+  flex: 1;
+  display: block;
+  padding: 15px 20px;
+  background-color: #fe5f55;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  border-radius: 0;
+}
+
+.nav-button:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.nav-button:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+.nav-button:hover {
+  background-color: #c94239;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.nav-button.active {
+  background-color: #b4281e;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #4267B2;
+  color: white;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.social-button:hover {
+  background-color: #365899;
+  transform: translateY(-2px);
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-button i {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
